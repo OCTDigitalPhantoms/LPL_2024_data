@@ -24,7 +24,7 @@ For the simulation of the OCT image, the following parameters were used:
 
 Number of A-scans: N_Ascans = 200
 
-Lateral distance between the pixels: Xpx = 16 µm
+Lateral distance between the pixel centers: Xpx = 16 µm
 
 Axial distance between the pixel centers in air: Hpx_air = 8 µm
 
