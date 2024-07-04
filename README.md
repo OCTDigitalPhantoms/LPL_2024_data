@@ -11,3 +11,6 @@ Structure: Three-dimensional double precision complex-valued array (251,200,2) =
 Two B-scans before (:,:,1) and after (:,:,2) applying strains.
 
 When using for your purposes, please cite the above-mentioned paper.
+
+Acknowledgments:
+Generation of simulated datasets and numerical testing was supported by the Ajman University, Grant No 2023-IRG-ENIT-44.
