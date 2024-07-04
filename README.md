@@ -7,7 +7,7 @@ Laser Physics Letters, Volume 21, Number 8
 https://doi.org/10.1088/1612-202X/ad552c
 
 Filenames correspond to figure numbers.
-Structure: Three-dimensional double precision complex-valued array (251,200,2) = (depth, X, Scans). 
+Structure: Three-dimensional double precision complex-valued array (depth, X, Scans). 
 Two B-scans before (:,:,1) and after (:,:,2) applying strains.
 
 The OCT digital phantom cloud-based simulation tool can be found on the OpticElastograph platform: https://www.opticelastograph.com/
