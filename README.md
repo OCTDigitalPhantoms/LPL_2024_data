@@ -19,6 +19,7 @@ Generation of simulated datasets and numerical testing was supported by the Ajma
 
 ----------------------
 Figure5.mat: File Description
+ 
 For the simulation of the OCT image, the following parameters were used:
 Number of A-scans: N_Ascans = 200
 Lateral distance between the pixels: Xpx = 16 µm
