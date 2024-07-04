@@ -10,6 +10,8 @@ Filenames correspond to figure numbers.
 Structure: Three-dimensional double precision complex-valued array (251,200,2) = (depth, X, Scans). 
 Two B-scans before (:,:,1) and after (:,:,2) applying strains.
 
+The OCT digital phantom cloud-based simulation tool can be found on the OpticElastograph platform: https://www.opticelastograph.com/
+
 When using for your purposes, please cite the above-mentioned paper.
 
 Acknowledgments:
