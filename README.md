@@ -6,16 +6,54 @@ Published 2 July 2024
 Laser Physics Letters, Volume 21, Number 8
 https://doi.org/10.1088/1612-202X/ad552c
 
+When using for your purposes, please cite the above-mentioned paper.
+
 Filenames correspond to figure numbers.
-Structure: Three-dimensional double precision complex-valued array (depth, X, Scans). 
+Structure: Three-dimensional double precision complex-valued array (:, :, Scans). 
 Two B-scans before (:,:,1) and after (:,:,2) applying strains.
 
-The OCT digital phantom cloud-based simulation tool can be found on the OpticElastograph platform: https://www.opticelastograph.com/
+Figure1.mat (X,Z,Scans); Figure5.mat (Z,X,Scans)
 
-When using for your purposes, please cite the above-mentioned paper.
+To calculate interframe phase differences, you may use this line:
+Phase_difference=angle(Bscan(:,:,1).*conj(Bscan(:,:,2)));
+
+The OCT digital phantom cloud-based simulation tool, as well as the tool for interframe local strain calculation using the Vector method, can be found on the OpticElastograph platform: https://www.opticelastograph.com/
 
 Acknowledgments:
 Generation of simulated datasets and numerical testing was supported by the Ajman University, Grant No 2023-IRG-ENIT-44.
+
+----------------------
+
+OCT phantom B-scans for Fig.1
+Double precision complex-valued array B-scan (256, 200, 2) where 256 is X, 200 is axial, and 2 is two B-scans.
+
+Model Initialization Parameters:
+
+Number of pixels in A-scan: 200
+
+Vertical pixel size (µm): 6
+
+Central wavelength (µm): 1
+
+Number of A-scans in B-scan: 256
+
+Xmax (µm): 1000
+
+Number of B-scans: 2
+
+Ymax (µm): 0
+
+Beam radius (µm): 10
+
+Beam radius at focus (µm): 10
+
+Number of scatterers in B-scan: 256,000
+
+Beam focus depth (µm): 128
+
+Distance from lens to surface (µm): -100
+
+Ratio of lens diameter to beam width: 1.5
 
 ----------------------
 Figure5.mat: File Description
